@@ -1,0 +1,58 @@
+* {
+  margin: 0px 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html{
+font-size: 10px;
+}
+body{
+padding: 5px;
+font-size: 30px;
+}
+
+.main-box{
+  display: flex;
+  border: 5px solid black;
+  height: 200px;
+  justify-content: space-between;
+  padding: 10px;
+  grid-gap: 20px;
+  background-color: lightgray;
+}
+
+.main-box>div{
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  border: 3px solid;
+  border-color: transparent;
+}
+
+button{
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  visibility: hidden;
+}
+
+.icon{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* <i class="fa-solid fa-xmark"></i> */
